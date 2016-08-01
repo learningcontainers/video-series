@@ -1,0 +1,3 @@
+FROM php:${PHP_VERSION}-cli
+
+RUN docker-php-ext-install pdo pdo_mysql

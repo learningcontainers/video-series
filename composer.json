@@ -1,0 +1,10 @@
+{
+    "require": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "scripts": {
+        "test": [
+            "./run-tests.sh"
+        ]
+    }
+}
