@@ -1,11 +1,13 @@
 # LearningContainers.com Example Code and Applications
 
-Welcome to the LearningContainers.com Example Code and Applications repository!
+## Lesson 13 - Testing Your Applications
 
-You can use this repository to follow along with the videos. Each video that has example code has a branch in this repository. For example, if you are watching 'Lesson 06 - Volumes and Data', switch to the lesson-06 branch:
+This branch contains the demo files for setting up and working with 
+PHPUnit and various versions of PHP.
 
-`git checkout lesson-06`
+### Setup
 
-You will then be able to modify the files as you see fit.
-
-
+1. Run `composer install` (or your variation) to install PHPUnit
+2. Copy `phpunit.xml.dist` to `phpunit.xml`. Edit if you feel the need to.
+3. Run `build-images.sh` to generate and build the images. 
+4. Run `run-tests.sh` to run the unit tests in various PHP versions

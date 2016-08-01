@@ -11,6 +11,3 @@ for VERSION in ${PHP_VERSIONS[@]}; do
     echo "Running tests under PHP ${VERSION}"
     docker run --rm -v $(pwd):/app -w /app $imagename php vendor/bin/phpunit -c phpunit.xml
 done
-
-
-

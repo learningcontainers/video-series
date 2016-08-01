@@ -10,4 +10,3 @@ for VERSION in ${PHP_VERSIONS[@]}; do
     STRIPPED_VERSION=${VERSION/./}
     docker build -t ${APPNAME}_phpunit_${STRIPPED_VERSION} -f ${BUILD_DIR}/${VERSION}-Dockerfile .
 done
-
