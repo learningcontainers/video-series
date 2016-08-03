@@ -1,11 +1,14 @@
 # LearningContainers.com Example Code and Applications
 
-Welcome to the LearningContainers.com Example Code and Applications repository!
+## Lesson 10 - Docker Compose
 
-You can use this repository to follow along with the videos. Each video that has example code has a branch in this repository. For example, if you are watching 'Lesson 06 - Volumes and Data', switch to the lesson-06 branch:
+This lesson should be fairly straight forward. To launch the containers,
+simply type `docker-compose up -d`.
 
-`git checkout lesson-06`
+You should be able to visit `http://localhost:8080` and get a webpage.
 
-You will then be able to modify the files as you see fit.
+If port 8080 is already reserved, feel free to edit `docker-compose.yml`
+to modify the section under `nginx` -> `ports`.
 
-
+Any PHP and HTML files that are placed in the `html/` folder should render
+under PHP 7.
