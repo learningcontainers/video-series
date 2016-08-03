@@ -1,11 +1,11 @@
 # LearningContainers.com Example Code and Applications
 
-Welcome to the LearningContainers.com Example Code and Applications repository!
+## Lesson 11 - Setting up a Dev Environment
 
-You can use this repository to follow along with the videos. Each video that has example code has a branch in this repository. For example, if you are watching 'Lesson 06 - Volumes and Data', switch to the lesson-06 branch:
+The files in here can be used to add additional functionality to an existing
+shell. There are copies for `.bashrc`, `.zshrc`, and Powershell.
 
-`git checkout lesson-06`
+Simply open the files up, copy the aliases/functions, and add them to the 
+appropriate files in your home directory.
 
-You will then be able to modify the files as you see fit.
-
-
+* Note: Powershell is coming soon
