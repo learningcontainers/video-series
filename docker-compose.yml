@@ -1,0 +1,9 @@
+mysqlserver:
+  image: mysql
+  environment:
+    MYSQL_DATABASE: lc
+    MYSQL_PASSWORD: lcpass
+    MYSQL_ROOT_PASSWORD: docker
+  volumes:
+    - /var/lib/mysql
+    - ./data:/docker-entrypoint-initdb.d
